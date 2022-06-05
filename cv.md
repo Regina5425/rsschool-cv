@@ -35,17 +35,19 @@ multiply = function (a, b) {
 ```
 ***
 ## Courses:
-* [Code Basics HTML] (https://ru.code-basics.com/languages/html)
-* [Code Basics CSS] (https://ru.code-basics.com/languages/css)
-* [Code Basics JavaScript] (https://ru.code-basics.com/languages/javascript)
-* [Udemy JavaScript] (https://www.udemy.com/course/javascript_full/) (in progress)
-* [JavaScript Online Book] (https://learn.javascript.ru/)
-* [RS School RS Schools Course JavaScript/Front-end. Stage0] (https://rs.school/js-stage0/)
+* [Code Basics HTML](https://ru.code-basics.com/languages/html)
+* [Code Basics CSS](https://ru.code-basics.com/languages/css)
+* [Code Basics JavaScript](https://ru.code-basics.com/languages/javascript)
+* [Udemy JavaScript](https://www.udemy.com/course/javascript_full/) (in progress)
+* [JavaScript Online Book](https://learn.javascript.ru/)
+* [RS School RS Schools Course JavaScript/Front-end. Stage0](https://rs.school/js-stage0/)
+
 ***
 ## Projects
-* [Britlex Landing Page] (https://github.com/Regina5425/Britlex)
-**
+* [Britlex Landing Page](https://github.com/Regina5425/Britlex)
+
+***
 ## Languages
 * Russian (native)
-* English (B2 Upper Intermediate / C1 Advanced) accordind to [EF Set] (https://www.efset.org/ru/ef-set-50/)
+* English (B2 Upper Intermediate / C1 Advanced) accordind to [EF Set](https://www.efset.org/ru/ef-set-50/)
 * Chinese (Basic)
