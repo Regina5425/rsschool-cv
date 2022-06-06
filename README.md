@@ -1,1 +1,1 @@
-https://Regina5425.github.io/rsschool-cv/cv
+https://Regina5425.github.io/rsschool-cv/
