@@ -22,54 +22,217 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <header class="header">
-        <div class="container">
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#about" class="nav__link">About</a>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code" class="nav__link">Code</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#courses" class="nav__link">Courses</a>
+            </li>
+            <li class="nav__item">
+              <a href="#languages" class="nav__link">Languages</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="hero">
+          <img
+            src="./assets/img/ava.jpg"
+            alt="Profile photo"
+            class="hero__img"
+          />
+          <div class="hero-title">
+            <h1 class="hero-title__main">Regina Anfenogentova</h1>
+            <h2 class="hero-title__sub">Junior Frontent Developer</h2>
+          </div>
+        </section>
+      </div>
+    </header>
+    <div class="container">
+      <div class="main-content">
+        <aside class="aside">
+          <div class="aside-edu">
+            <h2 class="aside-edu__descr">
+              Innovative University of Kazan (IEML)
+            </h2>
+            <p class="aside-edu__descr aside-edu__descr--small">
+              Linguist-interpreter of English and Chinese Languages
+            </p>
+          </div>
+          <div class="aside-course" id="courses">
+            <ul class="aside-course__list">
+              <li class="aside-course__item">
+                <h2>Code Basics</h2>
+                <a
+                  href="https://ru.code-basics.com/"
+                  target="_blank"
+                  class="aside-course__link"
+                  >HTML/CSS/JS</a
+                >
               </li>
-              <li class="nav__item">
-                <a href="#projects" class="nav__link">Projects</a>
+              <li class="aside-course__item">
+                <h2>Udemy</h2>
+                <a
+                  href="https://www.udemy.com/course/javascript_full/"
+                  target="_blank"
+                  class="aside-course__link"
+                  >JavaScript/React (in process...)</a
+                >
               </li>
-              <li class="nav__item">
-                <a href="#code" class="nav__link">Code</a>
-              </li>
-              <li class="nav__item">
-                <a href="#skills" class="nav__link">Skills</a>
-              </li>
-              <li class="nav__item">
-                <a href="#courses" class="nav__link">Courses</a>
-              </li>
-              <li class="nav__item">
-                <a href="#language" class="nav__link">Languages</a>
-              </li>
-              <li class="nav__item">
-                <a href="#contacts" class="nav__link">Contacts</a>
+              <li class="aside-course__item">
+                <h2>RS School</h2>
+                <a
+                  href="https://rs.school/js-stage0/"
+                  target="_blank"
+                  class="aside-course__link"
+                  >JS/FE Pre-School</a
+                >
               </li>
             </ul>
-          </nav>
-					<section class="hero">
-            <img
-              src="./assets/img/ava.jpg"
-              alt="Profile photo"
-              class="hero__img"
-            />
-            <div class="hero-title">
-              <h1 class="hero-title__main">Regina Anfenogentova</h1>
-              <h2 class="hero-title__sub">Junior Frontent Developer</h2>
+          </div>
+          <div class="aside-skills" id="skills">
+            <ul class="aside-skills__list">
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>HTML5</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>CSS3</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>JavaScript</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>Git and GitHub</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>SASS/SCSS</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>Bootstrap</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>Figma, Adobe Photoshop</span>
+              </li>
+              <li class="aside-skills__item">
+                <img src="assets/img/star.svg" alt="star" />
+                <span>Gulp</span>
+              </li>
+            </ul>
+          </div>
+          <div class="aside-contacts" id="contacts">
+            <ul class="aside-contacts__list">
+              <li class="aside-contacts__item">
+                <a
+                  href="tel:+79600333312"
+                  target="_blank"
+                  class="aside-contacts__link"
+                  >Phone</a
+                >
+              </li>
+              <li class="aside-contacts__item">
+                <a
+                  href="mailto:reina5425@gmail.com"
+                  target="_blank"
+                  class="aside-contacts__link"
+                  >Email</a
+                >
+              </li>
+              <li class="aside-contacts__item">
+                <a
+                  href="https://github.com/Regina5425"
+                  target="_blank"
+                  class="aside-contacts__link"
+                  >GitHub</a
+                >
+              </li>
+              <li class="aside-contacts__item">
+                <a
+                  href="https://t.me/ReginaAn"
+                  target="_blank"
+                  class="aside-contacts__link"
+                  >Telegram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <main class="main">
+          <section class="about" id="about">
+            <h2 class="about__title title">About me</h2>
+            <p class="about__descr descr">
+              I&nbsp;am 33&nbsp;years old. Now I&nbsp;work as&nbsp;assistant
+              of&nbsp;sales manager in&nbsp;the large chemical company.
+              My&nbsp;work experience is&nbsp;about 11&nbsp;years. I have
+              graduated as&nbsp;an&nbsp;interpreter of&nbsp;English and Chinese
+              languages. Last year&nbsp;I decided to&nbsp;change my&nbsp;career
+              and become a&nbsp;Web Developer, so&nbsp;I started to&nbsp;learn
+              HTML&nbsp;&amp; CSS by&nbsp;myself. My&nbsp;goal is become
+              a&nbsp;Frontend Developer, so&nbsp;I believe&nbsp;I can
+              achieve&nbsp;it.
+            </p>
+            <p class="about__text">Keep learning...</p>
+          </section>
+          <section class="code" id="code">
+            <h2 class="code__title title">Code examples</h2>
+            <pre>
+							<code>
+								function calc(a, b) {
+									return (a + b);
+								}
+								console.log(calc(4, 3));
+							</code>
+						</pre>
+          </section>
+          <section class="projects" id="projects">
+            <h2 class="projects__title title">Projects</h2>
+            <div class="projects__block">
+              <h3 class="projects__subtitle">Britlex Landing Page</h3>
+							<a href="https://regina5425.github.io/Britlex/" class="projects__link">
+								<img src="assets/img/britlex.png" alt="Britlex Website">
+							</a>
+              <p class="projects__descr">
+                Layout of landing page. Learning skills: HTML, CSS, Figma,
+                responsive/adaptive design, CSS Flex, Grid Layout
+              </p>
+            </div>
+						<div class="projects__block">
+              <h3 class="projects__subtitle">Crappo Landing Page</h3>
+							<a href="https://regina5425.github.io/Crappo/" class="projects__link">
+								<img src="assets/img/crappo.png" alt="Crappo Website">
+							</a>
+              <p class="projects__descr">
+                Layout of landing page. Learning skills: HTML, CSS, Figma,
+                responsive/adaptive design, CSS Flex
+              </p>
             </div>
           </section>
-        </div>
-      </header>
-        <div class="container">
-					<div class="main-content">
-						<aside class="aside">dgdsgsgsgsg</aside>
-						<main class="main">ssgsgdgsdgsdgsdgsd</main>
-					</div>
-        </div>
-      <footer class="footer">
-        <div class="container"></div>
-      </footer>
+					<section class="languages" id="languages"></section>
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
   </body>
 </html>

@@ -66,7 +66,7 @@ img {
 	max-width: 1150px;
 	margin: 0 auto;
 	/* padding: 0 15px; */
-	background-color: #123EAB;
+	background-color: #244bac;
 }
 
 /* =======================*/
@@ -135,4 +135,56 @@ img {
 	font-size: 36px;
 	line-height: 42px;
 	text-transform: uppercase;
+	color: var(--color-main);
+}
+
+/*==========================*/
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*=============================*/
+.aside {
+	flex: 0 0 30%;
+	color: var(--color-light);
+}
+.aside-edu {
+}
+.aside-edu__descr {
+}
+.aside-edu__descr--small {
+}
+.aside-course {
+}
+.aside-course__list {
+}
+.aside-course__item {
+}
+.aside-course__link {
+}
+.aside-skills {
+}
+.aside-skills__list {
+}
+.aside-skills__item {
+}
+.aside-skills__item img {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.aside-contacts {
+}
+.aside-contacts__list {
+}
+.aside-contacts__item {
+}
+.aside-contacts__link {
+}
+
+/*========================*/
+.main {
+	flex: 1 0 70%;
 }
