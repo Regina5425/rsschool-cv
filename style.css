@@ -139,6 +139,10 @@ img {
 }
 
 /*==========================*/
+.main {
+	background-color: var(--color-light);
+}
+
 .main-content {
 	display: flex;
 	justify-content: space-between;
